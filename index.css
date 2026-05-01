@@ -1,0 +1,15 @@
+#preface {
+    text-align: justify;
+    width: 90%;
+    margin: 10% auto;
+    font-family: "Palatino Linotype", Palatino, serif;
+    font-weight: bold;
+    font-size: small;
+}
+
+@media (min-width: 640px) {
+    #preface {
+        width: 40%;
+        font-size: large;
+    }
+}
